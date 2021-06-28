@@ -1,0 +1,31 @@
+baseurl: "https://qungn.github.io/purity"
+languageCode: "zh-cn"
+theme: "purity"
+
+title: "Qun GN"
+
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+
+paginate: 10000
+
+metaDataFormat: "yaml"
+
+markup:
+  highlight:
+    codeFences: false
+
+Author:
+  name: "Qun GN Authors"
+
+Params:
+  homeTitle: "Qun GN"
+  subtitle: "Hail Anti-17!"
+  favicon: "img/favicon.ico"
+
+menu:
+  main:
+  - name: "Games"
+    url: "games"
+    weight: 1
